@@ -141,11 +141,14 @@ Histogram showing the distribution of transaction amounts for fraudulent vs non-
 pip install pandas numpy scikit-learn matplotlib seaborn
 ```
 
-3. Open `fraud_detection.ipynb` in Jupyter Notebook or VS Code.
+3. Open `fraud_detection1.ipynb` in Jupyter Notebook or VS Code.
 
 4. Run cells sequentially.
-
-5. For real-time prediction:
+5. You can also run the python script `fraud_detection.py`and save all the outputs directly.
+```bash
+python fraud_detection.py
+```
+6. For real-time prediction:
 
   - Use `manual_fraud_input()` for single transaction input.
 
