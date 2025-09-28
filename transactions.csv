@@ -1,0 +1,501 @@
+TransactionID,Amount,Time,Location,MerchantCategory,CardHolderAge,IsFraud
+28,514.72,23833,Chicago,Electronics,52,1
+47,312.4,9860,Miami,Electronics,52,1
+50,185.67,23574,Houston,Entertainment,37,1
+53,939.56,10916,New York,Entertainment,42,1
+89,,39764,New York,Clothing,,1
+113,929.77,39811,Miami,Groceries,19,1
+120,539.8,5569,Los Angeles,Clothing,32,1
+128,860.87,80719,Houston,Electronics,45,1
+149,52.43,18777,Chicago,Groceries,77,1
+203,162.47,82152,Miami,Clothing,120,1
+208,663.84,12910,,Groceries,21,1
+213,652.31,72274,New York,Groceries,35,1
+214,225.05,81449,Miami,Travel,57,1
+223,94.58,17260,Los Angeles,Groceries,59,1
+229,892.15,71158,Chicago,Travel,26,1
+260,98.08,58067,Los Angeles,Travel,49,1
+291,31.47,235,Chicago,Entertainment,68,1
+294,360.83,8567,New York,Clothing,,1
+298,216.61,73698,Chicago,Clothing,47,1
+322,714.88,73340,Los Angeles,Entertainment,31,1
+340,98.74,24519,New York,Groceries,49,1
+358,586.19,19029,Miami,Entertainment,31,1
+362,,46197,Miami,Travel,67,1
+411,319.99,47882,New York,Groceries,38,1
+444,371.27,79026,Houston,Clothing,33,1
+497,584.07,78623,Miami,Groceries,64,1
+499,974.42,52603,Los Angeles,Electronics,21,1
+1,375.17,47605,Houston,Travel,18,0
+2,950.76,38088,Los Angeles,Electronics,28,0
+3,732.26,78752,Miami,Travel,20,0
+4,599.06,55284,New York,Groceries,69,0
+5,156.86,57043,New York,Groceries,79,0
+6,156.84,35547,Chicago,Clothing,40,0
+7,59.03,82844,Chicago,Travel,43,0
+8,866.31,27532,Miami,Electronics,21,0
+9,601.51,34349,New York,Electronics,35,0
+10,708.36,45445,Miami,Entertainment,72,0
+11,21.56,5713,Chicago,Electronics,23,0
+12,969.94,56178,Chicago,Clothing,52,0
+13,832.61,49407,New York,Clothing,39,0
+14,213.13,70340,Houston,Electronics,,0
+15,182.64,50990,Los Angeles,Electronics,32,0
+16,184.22,75672,Chicago,Entertainment,39,0
+17,304.94,65545,Chicago,Electronics,77,0
+18,525.23,84791,,Entertainment,54,0
+19,7661.45938,58141,Houston,Entertainment,69,0
+20,291.94,23793,Miami,Electronics,59,0
+21,612.24,56570,,Groceries,29,0
+22,140.35,37892,Los Angeles,Groceries,64,0
+23,292.85,1015,,Entertainment,66,0
+24,367,61813,New York,Electronics,,0
+25,456.61,27712,Miami,Groceries,55,0
+26,785.39,8415,Chicago,Electronics,35,0
+27,200.47,62292,Miami,Electronics,62,0
+29,592.82,4158,Houston,Travel,47,0
+30,47.4,62680,Miami,Electronics,41,0
+31,607.94,20309,Houston,Travel,59,0
+32,171.35,6970,Los Angeles,Entertainment,47,0
+33,65.99,72474,Los Angeles,Groceries,31,0
+34,948.94,46540,New York,Groceries,,0
+35,965.67,20384,Miami,Groceries,20,0
+36,808.59,18017,Houston,Groceries,33,0
+37,305.31,75880,,Groceries,24,0
+38,98.57,8702,Los Angeles,Groceries,69,0
+39,,384,Los Angeles,Groceries,31,0
+40,440.71,404,Chicago,Entertainment,26,0
+41,122.92,40943,Houston,Electronics,32,0
+42,495.68,47926,,Clothing,,0
+43,35.35,29189,Miami,Travel,52,0
+44,909.41,12763,Miami,Clothing,19,0
+45,259.52,18384,New York,Clothing,44,0
+46,662.86,60100,Los Angeles,Electronics,19,0
+48,520.55,80642,Houston,Electronics,35,0
+49,547.16,50612,Chicago,Groceries,31,0
+51,969.62,23524,Los Angeles,Groceries,35,0
+52,775.36,69172,Houston,Entertainment,27,0
+54,894.93,4809,Los Angeles,Clothing,19,0
+55,598.3,32201,Chicago,Clothing,42,0
+56,921.95,53330,New York,Entertainment,78,0
+57,89.4,13456,Los Angeles,Entertainment,71,0
+58,196.79,56397,Chicago,Groceries,50,0
+59,46.18,38765,New York,Groceries,53,0
+60,326.01,34816,New York,Clothing,48,0
+61,389.29,45106,Los Angeles,Electronics,31,0
+62,272.08,53932,Miami,Entertainment,18,0
+63,828.91,17100,New York,Groceries,63,0
+64,357.4,57091,New York,Clothing,33,0
+65,281.65,21949,Chicago,Groceries,71,0
+66,543.15,70080,Houston,Entertainment,63,0
+67,141.78,37744,Los Angeles,Entertainment,78,0
+68,802.39,45543,Los Angeles,Travel,69,0
+69,75.48,36187,Miami,Electronics,20,0
+70,986.9,7239,Miami,Travel,52,0
+71,,14489,,Clothing,58,0
+72,199.52,58017,Miami,Groceries,23,0
+73,6.52,61877,Chicago,Clothing,42,0
+74,815.65,43125,Los Angeles,Entertainment,30,0
+75,707.15,49922,Miami,Travel,70,0
+76,729.28,32049,Los Angeles,Travel,51,0
+77,771.5,37131,,Travel,25,0
+78,74.97,42944,New York,Clothing,,0
+79,359.11,73963,Los Angeles,Entertainment,51,0
+80,116.75,24285,New York,Groceries,21,0
+81,863.24,37626,Miami,Groceries,42,0
+82,623.67,42808,New York,Clothing,32,0
+83,331.57,53871,Los Angeles,Travel,21,0
+84,64.49,19198,Houston,Electronics,62,0
+85,311.67,19758,Miami,Clothing,77,0
+86,325.86,15254,Los Angeles,Clothing,29,0
+87,729.88,44238,Miami,Entertainment,49,0
+88,637.92,1252,Chicago,Groceries,49,0
+90,472.74,77709,Chicago,Clothing,30,0
+91,120.47,37441,Los Angeles,Travel,48,0
+92,713.53,53682,,Travel,31,0
+93,761.02,59494,Miami,Electronics,37,0
+94,561.72,81317,New York,Entertainment,35,0
+95,,65215,Miami,Electronics,46,0
+96,494.3,78587,Los Angeles,Travel,77,0
+97,523.21,6949,Miami,Groceries,23,0
+98,428.11,55393,,Travel,49,0
+99,26.39,73553,Los Angeles,Entertainment,46,0
+100,108.78,6941,Miami,Travel,60,0
+101,32.4,25934,Houston,Entertainment,79,0
+102,636.77,23386,Los Angeles,Entertainment,19,0
+103,315.04,61886,Los Angeles,Entertainment,77,0
+104,509.06,75745,Houston,Entertainment,40,0
+105,907.66,83251,Chicago,Entertainment,36,0
+106,250.04,53413,New York,Groceries,48,0
+107,410.97,56800,Chicago,Electronics,68,0
+108,755.8,42318,Miami,Clothing,22,0
+109,229.57,70173,Houston,Electronics,36,0
+110,77.9,70390,Chicago,Entertainment,51,0
+111,290.46,52329,Los Angeles,Groceries,27,0
+112,162.06,43088,Miami,Travel,42,0
+114,808.31,55479,Chicago,Entertainment,79,0
+115,,85392,Chicago,Groceries,28,0
+116,871.59,19963,Houston,Groceries,67,0
+117,803.87,55123,New York,Entertainment,78,0
+118,187.38,73477,Chicago,Groceries,48,0
+119,892.67,14388,Chicago,Clothing,73,0
+121,7839.871487,69836,Miami,Groceries,26,0
+122,896.2,36586,New York,Travel,40,0
+123,318.69,12015,Los Angeles,Entertainment,36,0
+124,8694.333386,45002,Houston,Clothing,26,0
+125,228.71,6254,Houston,Travel,52,0
+126,427.68,17144,Chicago,Groceries,38,0
+127,818.2,24214,Chicago,Travel,26,0
+129,,71774,Chicago,Clothing,79,0
+130,511.24,6090,,Groceries,63,0
+131,417.99,11637,Chicago,Entertainment,68,0
+132,222.89,22415,Miami,Groceries,24,0
+133,120.75,24071,Chicago,Entertainment,33,0
+134,338.28,58243,Los Angeles,Groceries,33,0
+135,942.97,41240,New York,Travel,77,0
+136,323.88,83807,Los Angeles,Travel,50,0
+137,519.27,33434,Los Angeles,Travel,21,0
+138,703.32,69724,Miami,Electronics,21,0
+139,364.27,75697,New York,Entertainment,56,0
+140,971.81,28732,New York,Travel,57,0
+141,962.48,11314,New York,Electronics,34,0
+142,252.53,23954,,Entertainment,54,0
+143,497.75,57108,,Groceries,56,0
+144,301.58,36668,Miami,Electronics,77,0
+145,285.56,23061,Chicago,Clothing,69,0
+146,37.85,79252,Los Angeles,Electronics,46,0
+147,609.95,39749,New York,Electronics,69,0
+148,503.18,16907,Chicago,Entertainment,53,0
+150,279.37,51745,Los Angeles,Clothing,55,0
+151,908.36,81818,Miami,Travel,56,0
+152,240.32,23624,Houston,Travel,67,0
+153,,23321,Houston,Electronics,54,0
+154,489.96,10488,Chicago,Entertainment,69,0
+155,985.66,22574,Los Angeles,Entertainment,79,0
+156,242.81,5240,Houston,Travel,78,0
+157,672.46,43221,Chicago,Clothing,52,0
+158,761.86,10478,Miami,Groceries,24,0
+159,238.4,55645,Houston,Clothing,44,0
+160,728.49,19262,Chicago,Groceries,45,0
+161,368.42,52796,Chicago,Travel,39,0
+162,632.67,4432,New York,Groceries,31,0
+163,633.9,64291,Miami,Entertainment,24,0
+164,536.24,79104,New York,Electronics,54,0
+165,91.2,59399,Los Angeles,Electronics,78,0
+166,835.47,79714,New York,Travel,39,0
+167,321.46,50428,New York,Entertainment,22,0
+168,187.33,302,Houston,Clothing,79,0
+169,41.73,82558,Chicago,Entertainment,72,0
+170,591.3,55,Miami,Electronics,19,0
+171,677.89,8717,New York,Electronics,79,0
+172,17.57,28699,Miami,Entertainment,44,0
+173,512.58,73686,New York,Entertainment,38,0
+174,227.27,67661,Los Angeles,Electronics,71,0
+175,645.53,44247,New York,Clothing,55,0
+176,175.19,16748,,Travel,32,0
+177,691.25,4621,Chicago,Travel,38,0
+178,387.35,15034,Los Angeles,Entertainment,27,0
+179,936.79,5126,New York,Travel,40,0
+180,138.38,5122,Miami,Electronics,75,0
+181,341.73,18030,Los Angeles,Electronics,73,0
+182,,82838,Los Angeles,Entertainment,56,0
+183,924.77,84717,,Entertainment,22,0
+184,877.46,55658,Los Angeles,Entertainment,18,0
+185,258.68,38638,Miami,Clothing,30,0
+186,660.32,67067,Los Angeles,Travel,38,0
+187,817.4,34674,Miami,Entertainment,43,0
+188,555.65,35854,New York,Groceries,67,0
+189,530.12,46271,Chicago,Groceries,62,0
+190,242.61,73688,Los Angeles,Electronics,38,0
+191,94.01,38518,Chicago,Travel,,0
+192,897.32,10267,Miami,Entertainment,,0
+193,900.52,1062,Los Angeles,Groceries,54,0
+194,633.47,50448,Houston,Travel,62,0
+195,,6229,Chicago,Electronics,49,0
+196,349.86,56793,Los Angeles,Clothing,53,0
+197,726.23,47915,Chicago,Travel,34,0
+198,897.21,4632,Los Angeles,Travel,52,0
+199,887.2,3596,New York,Clothing,66,0
+200,780.1,6168,Chicago,Travel,77,0
+201,642.39,7561,Houston,Electronics,28,0
+202,85.06,73794,Houston,Electronics,38,0
+204,898.66,26734,Los Angeles,Entertainment,72,0
+205,606.82,6371,Chicago,Groceries,70,0
+206,10.19,26069,Miami,Entertainment,43,0
+207,,79905,Chicago,Travel,5,0
+209,6.06,73479,Houston,Clothing,51,0
+210,161.65,77735,New York,Clothing,,0
+211,,81264,Houston,Groceries,65,0
+212,692.2,23275,Miami,Electronics,77,0
+215,712.47,60004,Los Angeles,Electronics,52,0
+216,238.01,62981,New York,Clothing,58,0
+217,326.07,84659,Miami,Groceries,46,0
+218,746.74,54553,Los Angeles,Entertainment,69,0
+219,649.98,48447,,Entertainment,,0
+220,,34529,Los Angeles,Travel,55,0
+221,657.96,75703,Chicago,Entertainment,59,0
+222,568.74,76090,Los Angeles,Groceries,38,0
+224,368.35,3812,Chicago,Entertainment,30,0
+225,265.94,28024,Miami,Groceries,66,0
+226,244.75,58656,Miami,Travel,58,0
+227,973.04,27285,Los Angeles,Electronics,34,0
+228,393.7,1605,Chicago,Travel,73,0
+230,631.51,72303,Houston,Groceries,58,0
+231,795.02,27139,Miami,Electronics,18,0
+232,503.13,77149,,Groceries,19,0
+233,577.33,56138,Miami,Clothing,77,0
+234,493.03,76125,Miami,Groceries,65,0
+235,196.05,13918,Houston,Groceries,46,0
+236,722.73,85655,New York,Groceries,50,0
+237,281.49,27446,Houston,Electronics,27,0
+238,25.29,13046,New York,Groceries,120,0
+239,645.83,24818,Los Angeles,Electronics,75,0
+240,177.93,4324,New York,Entertainment,,0
+241,940.52,76323,Houston,Clothing,57,0
+242,953.97,9111,Miami,Electronics,38,0
+243,914.95,38110,New York,Entertainment,45,0
+244,370.79,16389,New York,Electronics,28,0
+245,16.44,41427,Chicago,Electronics,72,0
+246,928.39,79579,Miami,Clothing,51,0
+247,428.76,28746,Los Angeles,Travel,25,0
+248,966.69,117,Houston,Travel,76,0
+249,963.66,84471,Los Angeles,Electronics,,0
+250,853.16,13234,Miami,Groceries,25,0
+251,295.15,53441,New York,Entertainment,66,0
+252,385.71,846,New York,Groceries,32,0
+253,851.29,10954,Miami,Groceries,34,0
+254,5862.619385,79239,New York,Electronics,77,0
+255,170.32,46514,New York,Electronics,40,0
+256,557.24,6469,New York,Electronics,41,0
+257,936.22,30105,Houston,Electronics,62,0
+258,696.33,42101,Houston,Travel,36,0
+259,570.49,64323,Chicago,Electronics,22,0
+261,5162.21723,49376,Miami,Travel,61,0
+262,990.06,45587,Miami,Electronics,18,0
+263,140.94,36976,Miami,Clothing,40,0
+264,518.81,67584,Chicago,Entertainment,54,0
+265,877.5,78477,Houston,Groceries,25,0
+266,741.03,42533,Chicago,Travel,30,0
+267,697.32,1828,Miami,Entertainment,25,0
+268,702.78,1917,Los Angeles,Clothing,,0
+269,360.13,20618,New York,Groceries,40,0
+270,294.3,32254,Houston,Groceries,60,0
+271,809.55,47362,Houston,Travel,18,0
+272,,20128,Chicago,Electronics,62,0
+273,867.21,59383,Houston,Clothing,68,0
+274,913.33,65545,Miami,Travel,,0
+275,511.83,82180,Miami,Clothing,52,0
+276,502.01,9865,Chicago,Electronics,41,0
+277,798.5,2219,Miami,Electronics,34,0
+278,650.31,39809,Los Angeles,Travel,22,0
+279,702.26,5287,Chicago,Electronics,,0
+280,796,34387,Los Angeles,Entertainment,38,0
+281,890.12,8512,New York,Groceries,57,0
+282,338.66,1342,Los Angeles,Travel,75,0
+283,376.21,63076,New York,Clothing,48,0
+284,94.89,19216,,Entertainment,63,0
+285,578.7,79767,Los Angeles,Travel,53,0
+286,36.91,26614,Chicago,Electronics,28,0
+287,466.13,36258,Miami,Electronics,69,0
+288,543.1,42078,Miami,Electronics,32,0
+289,287.25,83524,New York,Electronics,36,0
+290,591.24,12219,New York,Clothing,24,0
+292,38.31,42929,Houston,Groceries,45,0
+293,822.78,67444,Los Angeles,Clothing,68,0
+295,127.93,70792,Miami,Groceries,75,0
+296,522.72,65441,Chicago,Groceries,22,0
+297,770.22,84555,Los Angeles,Electronics,22,0
+299,623.27,5415,Los Angeles,Travel,71,0
+300,86.26,36159,,Groceries,49,0
+301,52.63,43925,New York,Groceries,,0
+302,531.82,5951,Chicago,Entertainment,27,0
+303,541.09,8007,Chicago,Travel,55,0
+304,637.79,41832,Miami,Travel,64,0
+305,726.37,58596,Miami,Groceries,49,0
+306,975.88,30523,New York,Electronics,65,0
+307,7974.236898,15524,New York,Entertainment,45,0
+308,323.63,19282,Houston,Travel,34,0
+309,795.39,23930,,Groceries,48,0
+310,271.56,77,Los Angeles,Travel,25,0
+311,439.53,20611,Chicago,Entertainment,57,0
+312,79.38,16984,New York,Entertainment,42,0
+313,26.33,14060,Chicago,Clothing,26,0
+314,962.69,82985,Chicago,Groceries,19,0
+315,836.14,84056,Houston,Entertainment,32,0
+316,696.28,43303,Miami,Clothing,67,0
+317,409.54,59207,New York,Clothing,20,0
+318,174.12,75046,Chicago,Travel,66,0
+319,157.28,29287,New York,Travel,53,0
+320,250.99,39711,Los Angeles,Clothing,79,0
+321,549.68,11954,Houston,Travel,21,0
+323,660.54,72101,New York,Electronics,58,0
+324,280.65,71520,New York,Entertainment,58,0
+325,954.91,18574,Miami,Clothing,42,0
+326,5516.325044,9184,Chicago,Clothing,75,0
+327,554.8,19096,Chicago,Entertainment,72,0
+328,612.11,67728,Los Angeles,Travel,79,0
+329,420.18,34016,Houston,Travel,67,0
+330,248.48,11246,Chicago,Clothing,27,0
+331,356.62,45558,Miami,Groceries,38,0
+332,758.09,18381,Los Angeles,Travel,53,0
+333,,36455,Los Angeles,Entertainment,,0
+334,,4018,,Travel,44,0
+335,46.96,11302,Houston,Entertainment,57,0
+336,41.69,67506,Miami,Clothing,19,0
+337,855.61,41157,Houston,Travel,,0
+338,703.95,54917,Miami,Entertainment,30,0
+339,474.7,83122,Miami,Clothing,70,0
+341,492.12,56819,Los Angeles,Entertainment,48,0
+342,474,80910,Miami,Groceries,33,0
+343,174.03,71324,,Groceries,49,0
+344,434.42,5408,Chicago,Electronics,49,0
+345,399.11,59379,Los Angeles,Travel,77,0
+346,616.23,25053,Chicago,Entertainment,51,0
+347,635.46,9446,Los Angeles,Groceries,28,0
+348,46.26,922,Chicago,Electronics,27,0
+349,375.24,51356,Miami,Clothing,32,0
+350,626.23,10789,Miami,Entertainment,34,0
+351,503.63,66656,New York,Groceries,57,0
+352,856.63,44028,Chicago,Travel,35,0
+353,,64484,Houston,Electronics,72,0
+354,163.77,32154,New York,Groceries,26,0
+355,71.5,82870,Chicago,Travel,42,0
+356,,2336,Chicago,Groceries,57,0
+357,27.48,67779,New York,Entertainment,76,0
+359,940.29,59201,Chicago,Entertainment,5,0
+360,9691.578643,32265,Miami,Electronics,75,0
+361,388.78,43872,New York,Entertainment,,0
+363,458.79,55180,Los Angeles,Groceries,39,0
+364,546.07,23710,Houston,Clothing,69,0
+365,941.52,29486,Chicago,Travel,47,0
+366,386.72,71907,Houston,Travel,37,0
+367,961.23,71895,Miami,Entertainment,38,0
+368,905.45,64435,Chicago,Electronics,61,0
+369,196.6,40631,Miami,Groceries,49,0
+370,70.29,20103,Los Angeles,Electronics,68,0
+371,101.68,64772,New York,Groceries,63,0
+372,19.2,14382,Chicago,Groceries,,0
+373,95.35,84291,Los Angeles,Electronics,73,0
+374,683.32,3756,Los Angeles,Travel,38,0
+375,72.12,20609,Chicago,Groceries,52,0
+376,319.66,16478,Miami,Electronics,75,0
+377,845.03,39666,Los Angeles,Groceries,49,0
+378,24.25,75683,Houston,Clothing,47,0
+379,814.65,71315,Los Angeles,Travel,72,0
+380,282.57,77834,Miami,Entertainment,56,0
+381,,14153,Miami,Groceries,66,0
+382,697.04,76325,Houston,Clothing,29,0
+383,629.31,12999,Los Angeles,Entertainment,58,0
+384,877.59,55318,Miami,Entertainment,64,0
+385,735.34,814,Chicago,Groceries,35,0
+386,803.68,76077,New York,Electronics,,0
+387,282.75,2443,New York,Groceries,30,0
+388,178.26,75993,New York,Clothing,79,0
+389,750.86,75916,Los Angeles,Entertainment,38,0
+390,807.03,73319,Houston,Groceries,79,0
+391,,17368,Miami,Electronics,25,0
+392,413.21,15328,Chicago,Groceries,63,0
+393,,56942,Chicago,Travel,57,0
+394,776.64,27306,Los Angeles,Electronics,63,0
+395,341.46,85451,New York,Clothing,24,0
+396,930.83,39915,Los Angeles,Entertainment,40,0
+397,858.55,37219,Houston,Groceries,61,0
+398,429.57,80879,Houston,Electronics,49,0
+399,751.12,64644,Miami,Travel,28,0
+400,754.79,60279,Miami,Electronics,39,0
+401,104.02,53028,Houston,Travel,39,0
+402,902.65,126,,Clothing,60,0
+403,6481.788068,52329,Houston,Entertainment,42,0
+404,,27632,Los Angeles,Clothing,39,0
+405,320.73,65310,Houston,Groceries,45,0
+406,895.63,55176,Chicago,Electronics,46,0
+407,389.81,86066,New York,Travel,30,0
+408,11.83,44327,Houston,Travel,35,0
+409,905.48,68904,New York,Electronics,19,0
+410,92.2,3797,Los Angeles,Electronics,46,0
+412,950.11,13718,Los Angeles,Clothing,32,0
+413,950.66,34560,Chicago,Travel,69,0
+414,573.86,76589,Los Angeles,Groceries,44,0
+415,632.21,22116,Los Angeles,Clothing,67,0
+416,449,36244,Miami,Groceries,48,0
+417,293.92,1645,Houston,Travel,32,0
+418,329.34,47523,Houston,Electronics,68,0
+419,672.85,19256,Chicago,Electronics,40,0
+420,752.62,53173,Chicago,Clothing,41,0
+421,791.79,37430,Houston,Entertainment,61,0
+422,789.83,39282,Miami,Clothing,30,0
+423,92.11,63374,Houston,Entertainment,39,0
+424,494.93,68244,Miami,Groceries,5,0
+425,58.5,11694,Chicago,Groceries,54,0
+426,549.98,56264,New York,Travel,78,0
+427,442.09,75060,Chicago,Entertainment,50,0
+428,887.82,57545,Chicago,Travel,73,0
+429,351.56,39224,Los Angeles,Electronics,20,0
+430,117.95,13224,Los Angeles,Entertainment,71,0
+431,143.85,40738,Los Angeles,Clothing,36,0
+432,761.75,25150,,Electronics,40,0
+433,618.6,63731,Miami,Electronics,46,0
+434,102.02,49688,Houston,Clothing,47,0
+435,85.02,73509,New York,Electronics,56,0
+436,701.27,8577,Chicago,Entertainment,61,0
+437,73.69,8070,Miami,Travel,64,0
+438,822.04,8666,New York,Electronics,42,0
+439,706.54,57761,Miami,Entertainment,54,0
+440,82.27,36368,Miami,Groceries,64,0
+441,85.75,6783,Chicago,Entertainment,25,0
+442,986.65,41914,Houston,Travel,59,0
+443,374.9,70507,Los Angeles,Entertainment,75,0
+445,812.99,67526,Chicago,Travel,25,0
+446,947.3,70835,Chicago,Groceries,18,0
+447,986.02,45765,Chicago,Clothing,61,0
+448,753.62,19956,New York,Entertainment,22,0
+449,376.88,46240,,Travel,20,0
+450,84.42,37148,Houston,Groceries,18,0
+451,777.37,4757,Miami,Clothing,21,0
+452,,19097,Miami,Groceries,57,0
+453,424.8,10395,Miami,Entertainment,52,0
+454,906.45,16241,Chicago,Groceries,49,0
+455,112.09,27696,Houston,Electronics,59,0
+456,8293.588194,70480,Chicago,Clothing,51,0
+457,12.34,46163,New York,Groceries,60,0
+458,469.19,19816,Miami,Entertainment,42,0
+459,57.25,49840,Chicago,Entertainment,27,0
+460,119.7,52853,Chicago,Groceries,38,0
+461,118.41,24917,New York,Entertainment,63,0
+462,649.56,21566,Los Angeles,Travel,56,0
+463,746.3,75452,Houston,Travel,44,0
+464,583.79,62823,Los Angeles,Travel,,0
+465,962.21,20806,Miami,Electronics,19,0
+466,375.5,75520,Chicago,Groceries,58,0
+467,286.43,1759,New York,Electronics,65,0
+468,,41949,New York,Entertainment,30,0
+469,224.37,2482,Houston,Electronics,26,0
+470,963.26,24442,Los Angeles,Entertainment,69,0
+471,13.14,33719,Houston,Entertainment,53,0
+472,969.91,58066,Chicago,Clothing,39,0
+473,44.12,2079,Houston,Travel,59,0
+474,891.25,2717,New York,Entertainment,43,0
+475,528.17,59676,New York,Clothing,75,0
+476,992.97,27952,Miami,Travel,71,0
+477,74.72,42460,Miami,Entertainment,29,0
+478,554.3,72847,Chicago,Entertainment,34,0
+479,969.33,18449,Los Angeles,Electronics,31,0
+480,523.57,33536,Houston,Electronics,31,0
+481,629.77,64077,Chicago,Travel,74,0
+482,696.05,38258,Miami,Entertainment,51,0
+483,455.09,48302,Houston,Groceries,70,0
+484,627.93,28865,Miami,Electronics,74,0
+485,,6645,Houston,Travel,37,0
+486,901.26,38000,Los Angeles,Entertainment,28,0
+487,46.4,26737,Chicago,Entertainment,33,0
+488,281.68,11485,Houston,Groceries,68,0
+489,950.46,38565,New York,Travel,48,0
+490,890.37,25522,New York,Entertainment,,0
+491,456.2,65155,Houston,Electronics,23,0
+492,620.51,55168,Houston,Groceries,73,0
+493,278.1,52487,Houston,Travel,36,0
+494,188.93,12342,New York,Groceries,54,0
+495,464.23,40806,New York,Electronics,75,0
+496,354,48770,Houston,Travel,21,0
+498,78.66,75629,Miami,Clothing,78,0
+500,986.22,81974,Chicago,Electronics,37,0
