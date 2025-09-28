@@ -151,8 +151,10 @@ pip install pandas numpy scikit-learn matplotlib seaborn
 ---
 ## Files
 
-`fraud_detection.ipynb` – Full notebook with code, markdown explanations, and real-time testing.
+`fraud_detection1.ipynb` – Full notebook with code, markdown explanations, and real-time testing.
 
 `transactions.csv` – Dataset for training and evaluation.
+
+`fraud_detection.py` – Full python code for fraud_detection
 
 ---
