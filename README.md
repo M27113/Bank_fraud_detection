@@ -34,14 +34,14 @@ This project implements a real-time fraud detection system for bank transactions
 ### 1. Manual Transaction Prediction
 This bar chart shows the predicted probability of a single transaction being fraudulent.  
 The red bar indicates the probability of fraud, while the green bar represents a safe transaction.  
-![Manual Transaction Prediction](manual_transaction.png)
+![Manual Transaction Prediction](./outputs/manual_transaction.png)
 
 ---
 
 ### 2. Batch Prediction Example
 A sample table showing batch predictions for multiple transactions from the test set.  
 It includes the predicted probability, prediction label, and a fraud alert flag.  
-![Batch Prediction Table](batch_prediction.png)
+![Batch Prediction Table](./outputs/batch_prediction.png)
 
 ---
 
@@ -49,14 +49,14 @@ It includes the predicted probability, prediction label, and a fraud alert flag.
 The ROC curve compares the performance of Random Forest and Logistic Regression.  
 The closer the curve is to the top-left corner, the better the model performance.  
 AUC (Area Under Curve) values are displayed in the legend.  
-![ROC Curve](roc_curve_comparison.png)
+![ROC Curve](./outputs/roc_curve_comparison.png)
 
 ---
 
 ### 4. Recall Comparison
 This plot shows the recall of both models across different thresholds.  
 Higher recall means the model identifies more fraudulent transactions correctly.  
-![Recall Curve Comparison](recall_comparison.png)
+![Recall Curve Comparison](./outputs/recall_comparison.png)
 
 ---
 
@@ -68,10 +68,10 @@ Confusion matrices for both models show true vs predicted labels:
 - True Negative (Safe correctly predicted)  
 - False Positive & False Negative (misclassifications)  
 
-![Confusion Matrix RF](confusion_matrix_rf.png)
+![Confusion Matrix RF](./outputs/confusion_matrix_rf.png)
 
 **Logistic Regression Confusion Matrix:**  
-![Confusion Matrix LR](confusion_matrix_lr.png)
+![Confusion Matrix LR](./outputs/confusion_matrix_lr.png)
 
 ---
 
@@ -82,12 +82,12 @@ These tables summarize model performance metrics including precision, recall, f1
 - High recall indicates good detection of fraudulent transactions  
 - F1-score balances precision and recall  
 
-![Classification Report RF](classification_report_rf.png)
+![Classification Report RF](./outputs/classification_report_rf.png)
 
 **Logistic Regression Classification Report:**  
 - Provides a comparison with Random Forest performance  
 
-![Classification Report LR](classification_report_lr.png)
+![Classification Report LR](./outputs/classification_report_lr.png)
 
 ---
 
@@ -98,7 +98,7 @@ Key insights:
 - Transaction `Amount` and `Time` are among the most influential features  
 - Certain `Location` and `MerchantCategory` indicators also play a role  
 
-![Feature Importance](feature_importance.png)
+![Feature Importance](./outputs/feature_importance.png)
 
 ---
 
@@ -108,7 +108,7 @@ Histogram showing the distribution of transaction amounts for fraudulent vs non-
 - Green bars represent safe transactions  
 - Helps visualize which transaction amounts are more prone to fraud  
 
-![Transaction Amount Distribution](amount_distribution.png)
+![Transaction Amount Distribution](./outputs/amount_distribution.png)
 
 ---
 
