@@ -84,18 +84,13 @@ Confusion matrices for both models show true vs predicted labels:
 ---
 
 ### 6. Classification Reports
-These tables summarize model performance metrics including precision, recall, f1-score, and support:
+The table summarize model performance metrics including precision, recall, f1-score, and support:
 
 **Random Forest Classification Report:**  
 - High recall indicates good detection of fraudulent transactions  
 - F1-score balances precision and recall  
 
 ![Classification Report RF](./outputs/classification_report_rf.png)
-
-**Logistic Regression Classification Report:**  
-- Provides a comparison with Random Forest performance  
-
-![Classification Report LR](./outputs/classification_report_lr.png)
 
 ---
 
