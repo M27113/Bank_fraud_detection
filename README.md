@@ -68,20 +68,37 @@ Prediction: Fraud
 
 - ROC-AUC score: 0.94 (Random Forest) vs 0.78 (Logistic Regression).
 ---
-### Manual Transaction Prediction
+## Example Generated Output
+
+### 1. Manual Transaction Prediction
 ![Manual Transaction Prediction](manual_transaction.png)
 
-### Batch Prediction Example
+### 2. Batch Prediction Example
 ![Batch Prediction Table](batch_prediction.png)
 
-### Model Performance (ROC Curve)
-![ROC Curve](roc_curve.png)
+### 3. ROC Curve Comparison
+![ROC Curve](roc_curve_comparison.png)
 
-### Confusion Matrix
-![Confusion Matrix](confusion_matrix.png)
+### 4. Recall Comparison
+![Recall Curve Comparison](recall_comparison.png)
 
-### Classification Report
-![Classification Report](classification_report.png)
+### 5. Confusion Matrices
+Random Forest:
+![Confusion Matrix RF](confusion_matrix_rf.png)  
+Logistic Regression:
+![Confusion Matrix LR](confusion_matrix_lr.png)
+
+### 6. Classification Reports
+Random Forest:
+![Classification Report RF](classification_report_rf.png)  
+Logistic Regression:
+![Classification Report LR](classification_report_lr.png)
+
+### 7. Feature Importance
+![Feature Importance](feature_importance.png)
+
+### 8. Transaction Amount Distribution
+![Transaction Amount Distribution](amount_distribution.png)
 
 ## How to Run
 
