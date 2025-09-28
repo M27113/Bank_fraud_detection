@@ -158,6 +158,6 @@ pip install pandas numpy scikit-learn matplotlib seaborn
 
 - `transactions.csv` – Dataset for training and evaluation.
 
-- `fraud_detection.py` – Full python code for fraud_detection
+- `fraud_detection.py` – Full python script for fraud_detection
 
 ---
