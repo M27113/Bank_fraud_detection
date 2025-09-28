@@ -136,24 +136,41 @@ Histogram showing the distribution of transaction amounts for fraudulent vs non-
 
 1. Clone the repository or download the notebook and dataset.
 
-2. Install required packages:
+2. Create a virtual environment (recommended to avoid dependency conflicts):
 ```bash
+# Create a virtual environment named 'fraud_env'
+python -m venv fraud_env
+
+# Activate the environment
+# Windows:
+fraud_env\Scripts\activate
+# macOS / Linux:
+source fraud_env/bin/activate
+```
+3. Install required packages:
+```bash
+pip install --upgrade pip
 pip install pandas numpy scikit-learn matplotlib seaborn
 ```
 
-3. Open `fraud_detection1.ipynb` in Jupyter Notebook or VS Code.
-
-4. Run cells sequentially.
-5. You can also run the python script `fraud_detection.py`and save all the outputs directly.
+4. Open the Jupyter Notebook:
+```bash
+jupyter notebook fraud_detection.ipynb
+```
+or run the Python script directly:
 ```bash
 python fraud_detection.py
 ```
-6. For real-time prediction:
+5. For real-time prediction:
 
   - Use `manual_fraud_input()` for single transaction input.
 
   - Use `real_time_fraud_checker()` for interactive menu predictions.
-
+    
+6. Deactivate the virtual environment (after finishing):
+```
+deactivate
+```
 ---
 ## Files
 
