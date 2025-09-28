@@ -32,30 +32,38 @@ This project implements a real-time fraud detection system for bank transactions
 ## Example Generated Outputs
 
 ### 1. Manual Transaction Prediction
-This bar chart shows the predicted probability of a single transaction being fraudulent.  
-The red bar indicates the probability of fraud, while the green bar represents a safe transaction.  
+
+- This bar chart shows the predicted probability of a single transaction being fraudulent.  
+- The red bar indicates the probability of fraud, while the green bar represents a safe transaction.
+  
 ![Manual Transaction Prediction](./outputs/manual_transaction.png)
 
 ---
 
 ### 2. Batch Prediction Example
-A sample table showing batch predictions for multiple transactions from the test set.  
-It includes the predicted probability, prediction label, and a fraud alert flag.  
+
+- A sample table showing batch predictions for multiple transactions from the test set.  
+- It includes the predicted probability, prediction label, and a fraud alert flag.
+  
 ![Batch Prediction Table](./outputs/batch_prediction.png)
 
 ---
 
 ### 3. ROC Curve Comparison
-The ROC curve compares the performance of Random Forest and Logistic Regression.  
-The closer the curve is to the top-left corner, the better the model performance.  
-AUC (Area Under Curve) values are displayed in the legend.  
+
+- The ROC curve compares the performance of Random Forest and Logistic Regression.  
+- The closer the curve is to the top-left corner, the better the model performance.  
+- AUC (Area Under Curve) values are displayed in the legend.
+   
 ![ROC Curve](./outputs/roc_curve_comparison.png)
 
 ---
 
 ### 4. Recall Comparison
-This plot shows the recall of both models across different thresholds.  
-Higher recall means the model identifies more fraudulent transactions correctly.  
+
+- This plot shows the recall of both models across different thresholds.  
+- Higher recall means the model identifies more fraudulent transactions correctly.  
+
 ![Recall Curve Comparison](./outputs/recall_comparison.png)
 
 ---
@@ -92,11 +100,11 @@ These tables summarize model performance metrics including precision, recall, f1
 ---
 
 ### 7. Feature Importance
-This bar chart shows the importance of each feature in the Random Forest model.  
-Higher importance means the feature contributes more to the model's decision-making.  
+- This bar chart shows the importance of each feature in the Random Forest model.  
+- Higher importance means the feature contributes more to the model's decision-making.  
 Key insights:
-- Transaction `Amount` and `Time` are among the most influential features  
-- Certain `Location` and `MerchantCategory` indicators also play a role  
+  - Transaction `Amount` and `Time` are among the most influential features  
+  - Certain `Location` and `MerchantCategory` indicators also play a role  
 
 ![Feature Importance](./outputs/feature_importance.png)
 
@@ -151,10 +159,10 @@ pip install pandas numpy scikit-learn matplotlib seaborn
 ---
 ## Files
 
-`fraud_detection1.ipynb` – Full notebook with code, markdown explanations, and real-time testing.
+- `fraud_detection1.ipynb` – Full notebook with code, markdown explanations, and real-time testing.
 
-`transactions.csv` – Dataset for training and evaluation.
+- `transactions.csv` – Dataset for training and evaluation.
 
-`fraud_detection.py` – Full python code for fraud_detection
+- `fraud_detection.py` – Full python code for fraud_detection
 
 ---
